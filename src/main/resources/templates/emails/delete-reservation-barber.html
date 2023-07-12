@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Suppression Réservation</title>
+</head>
+<body style="background-color: white; color: black; text-align: center">
+<p th:text="|Bonjour ${fullNameBarber}|">Bonjour</p>
+<p>
+    Nous t'informons que <span th:text="|${fullNameClient}|">le propriétaire de la réservation</span> a supprimé sa réservation
+    <span th:text="|qui était prévue pour le ${dateReservation}|"></span><span th:text="| à ${timeReservation}|"></span>
+</p>
+<p>Nous tenions à vous l'informer, sinon vous pouvez vous rendre sur le <b><a href="https://angulart.xyz" target="_blank">site</a></b> pour accepter d'autres réservations</p>
+<img src="https://image.freepik.com/vecteurs-libre/logo-salon-coiffure-retro_23-2148420012.jpg" width="100px"  alt="logo"/>
+<hr width="100%" align="left">
+<p>Équipe angulart / Ghost-team <br>
+    <a href="mailto:equipe-technique@angulart.xyz">Equipe-technique</a> -
+    Trois-Rivières, Canada
+</p>
+</body>
+</html>
